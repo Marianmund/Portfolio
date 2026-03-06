@@ -1,0 +1,51 @@
+
+@import "tailwindcss";
+/* @custom-variant dark (&:where(.dark, .dark *)); */
+
+
+
+
+/*###########
+  Navbuttons 
+##########*/
+
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.navbutton {
+  padding: 5%;
+  /* background-color: var(--color-gray-700); */
+  border-radius: var(--radius-lg);
+  color: var(--color-gray-200);
+  transition: 0.2s ease;
+}
+
+.navbutton:hover {
+  cursor: pointer;
+  background-color: var(--color-gray-200);
+  transition: 0.2s ease;
+  color: var(--color-gray-700);
+}
+
+.active {
+  background-color: var(--color-gray-200);
+  transition: 0.2s ease;
+  color: var(--color-gray-700);
+}
