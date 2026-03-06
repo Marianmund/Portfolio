@@ -53,7 +53,7 @@ export default function Praktikum() {
             Praktikumsbericht <br />- DE / GER -
         </h1>
             <a
-                href="/src/praktikun/Praktikumsbericht.pdf"
+                href="%PUBLIC_URL%/Praktikumsbericht.pdf"
                 target="_blank"
                 className="mt-3 hover:cursor-pointer border-t-2 border-t-gray-200 hover:border-t-0 hover:border-b-2 hover:border-b-gray-200 z-30 transition-all ease-linear duration-100"
                 >
