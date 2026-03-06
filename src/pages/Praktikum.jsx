@@ -163,7 +163,7 @@ export default function Praktikum() {
                     Während meines Praktikums nahm ich gemeinsam mit fünf weiteren Praktikanten am POWERUP 
                     Go-IT-Informatikwettbewerb teil. Im Rahmen dieses einwöchigen Projekts arbeiteten wir
                     an einer Wetter-App, die mithilfe der API des Deutschen Wetterdienstes &#40;eine Verbindung, 
-                    über die die App automatisch Wetterdaten vom Deutschen Wetterdienst bekommt&#41; Daten in 
+                    über die die App automatisch Wetterdaten vom Deutschen Wetterdienst abruft&#41; Daten in 
                     Echtzeit anzeigt. Dabei lernten wir den Umgang mit TypeScript, HTML und CSS im Angular-Framework, 
                     einem von Google entwickelten Tool zur Erstellung komplexer Webanwendungen.
                 </p>
