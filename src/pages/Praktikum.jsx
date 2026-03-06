@@ -53,7 +53,7 @@ export default function Praktikum() {
             Praktikumsbericht <br />- DE / GER -
         </h1>
             <a
-                href="%PUBLIC_URL%/Praktikumsbericht.pdf"
+                href="%PUBLIC_URL%/praktikun/Praktikumsbericht.pdf"
                 target="_blank"
                 className="mt-3 hover:cursor-pointer border-t-2 border-t-gray-200 hover:border-t-0 hover:border-b-2 hover:border-b-gray-200 z-30 transition-all ease-linear duration-100"
                 >
@@ -142,9 +142,9 @@ export default function Praktikum() {
         <section className="max-w-full sm:max-w-4xl mx-auto ml-3 mr-3 px-4 leading-relaxed">
                 <p className="mb-4">
                     Bei CSB-System SE werden vor allem Berufe im IT-Bereich nachgefragt, zum Beispiel 
-                    Softwareentwicklung, Betreuung von IT-Systemen und Datenbanken sowie Beratung zur 
+                    Softwareentwickler, Betreuer von IT-Systemen und Datenbanken sowie Berater zur 
                     Einführung und Optimierung von ERP-Systemen. Weitere Tätigkeiten gibt es im Support, 
-                    in Vertrieb und Marketing sowie in der Verwaltung. Die Mitarbeiter arbeiten daran, 
+                    im Vertrieb, im Marketing sowie in der Verwaltung. Die Mitarbeiter arbeiten daran, 
                     Unternehmensprozesse effizient zu gestalten, Softwarelösungen anzupassen und Kunden 
                     bei der Nutzung der Systeme zu unterstützen.
                 </p>
@@ -162,8 +162,9 @@ export default function Praktikum() {
                 <p className="mb-4">
                     Während meines Praktikums nahm ich gemeinsam mit fünf weiteren Praktikanten am POWERUP 
                     Go-IT-Informatikwettbewerb teil. Im Rahmen dieses einwöchigen Projekts arbeiteten wir
-                    an einer Wetter-App, die mithilfe der API des Deutschen Wetterdienstes Daten in Echtzeit 
-                    anzeigt. Dabei lernten wir den Umgang mit TypeScript, HTML und CSS im Angular-Framework, 
+                    an einer Wetter-App, die mithilfe der API des Deutschen Wetterdienstes &#40;eine Verbindung, 
+                    über die die App automatisch Wetterdaten vom Deutschen Wetterdienst bekommt&#41; Daten in 
+                    Echtzeit anzeigt. Dabei lernten wir den Umgang mit TypeScript, HTML und CSS im Angular-Framework, 
                     einem von Google entwickelten Tool zur Erstellung komplexer Webanwendungen.
                 </p>
             </section>
@@ -217,9 +218,9 @@ export default function Praktikum() {
         <section className="max-w-full sm:max-w-4xl mx-auto ml-3 mr-3 px-4 leading-relaxed">
                 <p className="mb-4">
                     Mein zweiwöchiges Praktikum bei der CSB-System SE war eine sehr lehrreiche Erfahrung, 
-                    die mir viele neue Einblicke in den Bereich Softwareentwicklung gegeben hat. Auch wenn 
-                    ich bereits Erfahrungen in HTML, CSS, JavaScript und ReactJS mitbrachte, konnte ich 
-                    während des Praktikums mein Wissen erheblich erweitern. Besonders der Umgang mit 
+                    die mir viele neue Einblicke in den Bereich Softwareentwicklung gegeben hat. Auch 
+                    wenn ich bereits Erfahrungen in HTML, CSS, JavaScript und ReactJS mitbrachte, konnte 
+                    ich während des Praktikums mein Wissen im Bereich Web- und Softwareentwicklung erheblich erweitern. Besonders der Umgang mit 
                     TypeScript und Angular hat mir gezeigt, wie komplexe Webanwendungen strukturiert 
                     aufgebaut werden und wie wichtig saubere, typisierte Programmierung für die 
                     Fehlervermeidung ist.
