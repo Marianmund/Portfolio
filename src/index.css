@@ -48,4 +48,70 @@ h1 {
   background-color: var(--color-gray-200);
   transition: 0.2s ease;
   color: var(--color-gray-700);
+
+
+}
+
+
+
+form div {
+  position: relative;
+  margin: 1rem 0 2rem 0;
+  width: 100%;
+}
+
+/* Input styling */
+form div input,
+form div textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid var(--color-gray-200);
+  color: var(--color-gray-200);
+  padding: 0.5rem 0;
+  width: 100%;
+  font-size: 1rem;
+
+  transition: 0.2s ease;
+}
+
+/* Focus effect */
+form div input:focus,
+form div textarea:focus {
+  outline: none;
+  border-bottom-color: var(--color-red-700);
+
+  transition: 0.2s ease;
+}
+
+/* Label styling with transition */
+form div label {
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  color: var(--color-gray-200);
+  font-size: 1rem;
+  pointer-events: none;
+  transition: 0.2s ease;
+}
+
+form div input:not(:placeholder-shown) + label,
+form div textarea:not(:placeholder-shown) + label {
+  top: -0.8rem;
+  font-size: 0.8rem;
+  color: var(--color-gray-500);
+}
+
+form div input:focus + label,
+form div textarea:focus + label {
+  top: -0.8rem;
+  font-size: 0.8rem;
+  color: var(--color-red-700) !important;
+}
+
+form button:hover {
+  
+  background-color: var(--color-red-700);
+  cursor: pointer;
+  transition: 0.2s ease;
+  color: var(--color-gray-200);
 }

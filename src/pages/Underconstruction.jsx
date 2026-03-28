@@ -13,6 +13,9 @@ export function UnderConstruction() {
                     <h2 className="m-0 text-s">This is currently being developed.</h2>
                 </div>
             </div>
+            
         </div>
+
+        
     )
 }

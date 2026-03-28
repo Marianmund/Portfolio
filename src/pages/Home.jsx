@@ -13,7 +13,7 @@ export default function Home() {
       {/* Title Screen */}
       <div className="flex justify-center flex-col items-center z-20 text-gray-200 text-center h-screen min-w-screen transition-all duration-900 ease-in-out uppercase ">
         {/* Social Icons */}
-        <ul className="flex flex-row items-center text-shadow-black text-4xl p-2 m-5 mb-0 -mt-8 gap-4 z-10">
+        <ul className="flex flex-row items-center text-shadow-black text-4xl p-2 m-5 mb-0 xl-mt-10 -mt-18 gap-4 z-10">
           <li>
             <a
               href="https://github.com/Marianmund"
