@@ -106,13 +106,13 @@ export default function Home() {
                       <div className="w-14 h-14 flex items-center justify-center text-4xl mx-auto">
                         <FontAwesomeIcon icon={faJs} />
                       </div>
-                      <h2 className="text-xs mt-0.5">JS</h2>
+                      <h2 className="text-xs mt-0.5">JavaScript</h2>
                     </li>
                     <li>
                       <div className="w-14 h-14 flex items-center justify-center text-4xl mx-auto">
                         <FontAwesomeIcon icon={faTypescript} />
                       </div>
-                      <h2 className="text-xs mt-0.5">TS</h2>
+                      <h2 className="text-xs mt-0.5">TypeScript</h2>
                     </li>
                     <li>
                       <div className="w-14 h-14 flex items-center justify-center text-4xl mx-auto">
