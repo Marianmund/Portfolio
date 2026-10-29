@@ -1,13 +1,13 @@
-import { Day1 } from "../praktikun/Day1";
-import { Day2 } from "../praktikun/Day2";
-import { Day3 } from "../praktikun/Day3";
-import { Day4 } from "../praktikun/Day4";
-import { Day5 } from "../praktikun/Day5";
-import { Day6 } from "../praktikun/Day6";
-import { Day7 } from "../praktikun/Day7";
-import { Day8 } from "../praktikun/Day8";
-import { Day9 } from "../praktikun/Day9";
-import { Day10 } from "../praktikun/Day10";
+import { Day1 } from "../praktikum/Day1";
+import { Day2 } from "../praktikum/Day2";
+import { Day3 } from "../praktikum/Day3";
+import { Day4 } from "../praktikum/Day4";
+import { Day5 } from "../praktikum/Day5";
+import { Day6 } from "../praktikum/Day6";
+import { Day7 } from "../praktikum/Day7";
+import { Day8 } from "../praktikum/Day8";
+import { Day9 } from "../praktikum/Day9";
+import { Day10 } from "../praktikum/Day10";
 
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 

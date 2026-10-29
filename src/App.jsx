@@ -7,7 +7,7 @@ import Experience from './pages/Experience';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
-import Praktikum from "./pages/praktikum";
+import Praktikum from "./pages/Praktikum";
 import { Particles } from "./components/Particles";
 import Footer from "./components/Footer";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
