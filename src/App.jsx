@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import LegalNotice from "./pages/LegalNotice";
 
+
 // ScrollToTop with smooth behavior
 function ScrollToTop() {
   const { pathname } = useLocation();

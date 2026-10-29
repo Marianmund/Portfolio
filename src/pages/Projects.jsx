@@ -1,4 +1,6 @@
-import { UnderConstruction } from "./Underconstruction";
+import { Link } from "react-router-dom";
+import "../index.css";
+
 
 export default function Projects() {
     return (
@@ -29,16 +31,15 @@ export default function Projects() {
 function ProjectOverview(){
     // Projects will be added here in the future, for now there is only one project, which is still under construction.
     const projects = [
-        {title: "AI study advisor", img_url:"/Portfolio/AIStudyAdvisor.png", link: "#", description:"AI helper for students to find the right study program based on their interests and skills."},
-        {title: "Under Construction", img_url: "https://cdn.pixabay.com/photo/2017/10/26/17/51/under-construction-2891888_1280.jpg", link: "#", description:"This project is currently under construction. Please check back later for updates."},
-
+        {title: "Panoram", img_url: "/Portfolio/PanoramAiImage.png", link:"#", description: "Tool for developers to plan their projects from start to finish, reducing all the unnecessary noise while planning."},
     ]
 
     const elements = []
 
     for (let i = 0; i < projects.length; i++) {
         elements.push(
-            <div className="mb-6 lg:mb-14 bg-gray-900 z-19 border-2 m-5 lg:mt-0.5 self-center rounded-4xl border-gray-200 flex flex-col justify-center md:max-w-70 lg:max-w-2xl max-w-xs xl:max-w-4xl overflow-hidden w-1000">               
+            <div key={projects[i].title}
+                className="mb-6 lg:mb-14 bg-gray-900 z-19 border-2 m-5 lg:mt-0.5 self-center rounded-4xl border-gray-200 flex flex-col justify-center md:max-w-70 lg:max-w-2xl max-w-xs xl:max-w-4xl overflow-hidden w-1000">               
             {/* Images */}
                 <div className="flex justify-center max-h-80 w-full lg:border-none h-60">
                     <img 
@@ -57,9 +58,9 @@ function ProjectOverview(){
                     <p className="ml-3 mr-3 mb-6">
                         {projects[i].description}
                     </p>
-                    <a href={projects[i].link} className="mb-6 hover:cursor-pointer border-t-2 border-t-gray-200 hover:border-t-0 hover:border-b-2 hover:border-b-gray-200 z-30 transition-all ease-linear duration-100">
+                    <Link to={projects[i].link} className="mb-6 hover:cursor-pointer border-t-2 border-t-gray-200 hover:border-t-0 hover:border-b-2 hover:border-b-gray-200 z-30 transition-all ease-linear duration-100">
                         View Project
-                    </a>
+                    </Link>
                 </div>
 
             </div>
