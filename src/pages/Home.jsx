@@ -44,7 +44,7 @@ export default function Home() {
           {/* LINKED IN */}
           <li>
             <a
-              href="www.linkedin.com/in/marian-mund-712298447"
+              href="https://www.linkedin.com/in/marian-mund-712298447"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-600 hover:drop-shadow-[0_0_19px_rgba(37,99,235,0.6)] transition-colors"
