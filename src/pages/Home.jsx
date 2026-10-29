@@ -4,8 +4,10 @@ import ScrollArrow from "../components/Scrollarrow";
 
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBug, faPeopleGroup, faPencil } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faInstagram, faLinkedin, faHtml5, faCss3Alt, faTailwindCss, faJs, faReact, faTypescript, faJava } from "@fortawesome/free-brands-svg-icons";
+import { faBug, faPeopleGroup, faPencil, faShieldHalved, faLock } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faInstagram, faLinkedin, faHtml5, faCss3Alt, faTailwindCss, faJs, faReact, faTypescript, faJava, faPostgresql } from "@fortawesome/free-brands-svg-icons";
+
+import { siSpringboot } from "simple-icons";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <div className="flex justify-center flex-col items-center z-20 text-gray-200 text-center h-screen min-w-screen transition-all duration-900 ease-in-out uppercase ">
         {/* Social Icons */}
         <ul className="flex flex-row items-center text-shadow-black text-4xl p-2 m-5 mb-0 xl-mt-10 -mt-18 gap-4 z-10">
+          
+          {/* GITHUB */}
           <li>
             <a
               href="https://github.com/Marianmund"
@@ -24,6 +28,8 @@ export default function Home() {
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </li>
+
+          {/* INSTAGRAM */}
           <li>
             <a
               href="https://www.instagram.com/marixn.m?igsh=MXRkbTZkb2J4MGFsNw%3D%3D&utm_source=qr"
@@ -34,9 +40,11 @@ export default function Home() {
               <FontAwesomeIcon icon={faInstagram} />
             </a>
           </li>
+
+          {/* LINKED IN */}
           <li>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/marian-mund-712298447"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-600 hover:drop-shadow-[0_0_19px_rgba(37,99,235,0.6)] transition-colors"
@@ -74,54 +82,107 @@ export default function Home() {
 
         <h1 className="m-0 text-2xl mt-14">Core Skills</h1>
             {/* SKILLS LIST */}
-                  <ul className="mt-2 flex flex-row max-w-75 gap-3 text-5xl text-center items-center justify-center">
+                  <ul className="mt-2 max-w-75 gap-3  text-center items-center justify-center
+                                  flex flex-row flex-wrap">
                     <li>
-                      <FontAwesomeIcon icon={faHtml5} />
+                      <div className="w-14 h-14 flex items-center justify-center text-4xl mx-auto">
+                        <FontAwesomeIcon icon={faHtml5} />
+                      </div>
                       <h2 className="text-xs mt-0.5">HTML</h2>
                     </li>
                     <li>
-                      <FontAwesomeIcon icon={faCss3Alt} />
+                      <div className="w-14 h-14 flex items-center justify-center text-4xl mx-auto">
+                        <FontAwesomeIcon icon={faCss3Alt} />
+                      </div>
                       <h2 className="text-xs mt-0.5">CSS</h2>
                     </li>
-                    <li>
-                      <FontAwesomeIcon icon={faTailwindCss} />
+                    <li> 
+                      <div className="w-14 h-14 flex items-center justify-center text-4xl mx-auto">
+                        <FontAwesomeIcon icon={faTailwindCss} />
+                      </div>
                       <h2 className="text-xs mt-0.5">Tailwind</h2>
                     </li>
                     <li>
-                      <FontAwesomeIcon icon={faJs} />
+                      <div className="w-14 h-14 flex items-center justify-center text-4xl mx-auto">
+                        <FontAwesomeIcon icon={faJs} />
+                      </div>
                       <h2 className="text-xs mt-0.5">JS</h2>
+                    </li>
+                    <li>
+                      <div className="w-14 h-14 flex items-center justify-center text-4xl mx-auto">
+                        <FontAwesomeIcon icon={faTypescript} />
+                      </div>
+                      <h2 className="text-xs mt-0.5">TS</h2>
+                    </li>
+                    <li>
+                      <div className="w-14 h-14 flex items-center justify-center text-4xl mx-auto">
+                        <FontAwesomeIcon icon={faReact} />
+                      </div>
+                      <h2 className="text-xs mt-0.5">React</h2>
+                    </li>
+                    <li>
+                      <div className="w-14 h-14 flex items-center justify-center text-4xl mx-auto">
+                        <FontAwesomeIcon icon={faJava} />
+                      </div>
+                      <h2 className="text-xs mt-0.5">Java</h2>
+                    </li>
+                    <li>
+                      <div className="w-14 h-14 flex items-center justify-center text-4xl mx-auto">
+                        <FontAwesomeIcon icon={faPostgresql} />
+                      </div>
+                      <h2 className="text-xs mt-0.5">PostgreSQL</h2>
                     </li>
                   </ul>
 
           <h1 className="m-0 text-2xl mt-14">Currently Learning</h1>
             {/* LEarning LIST */}
-                  <ul className="mt-2 flex flex-row max-w-75 gap-3 text-5xl text-center items-center justify-center">
-                    <li>
-                      <FontAwesomeIcon icon={faReact} />
-                      <h2 className="text-xs mt-0.5">React</h2>
-                    </li>
-                    <li>
-                      <FontAwesomeIcon icon={faJava} />
-                      <h2 className="text-xs mt-0.5">Java</h2>
-                    </li>
-                    <li>
-                      <FontAwesomeIcon icon={faTypescript} />
-                      <h2 className="text-xs mt-0.5">TS</h2>
-                    </li>
+                  <ul className="mt-2 flex flex-row max-w-75 gap-3 text-center items-center justify-center">
+                      <li>
+                        <div className="w-14 h-14 flex items-center justify-center text-2xl mx-auto">
+                          <svg
+                            role="img"
+                            aria-label="Spring Boot"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                            className="w-10 h-10 mx-auto text-white"
+                          >
+                            <path d={siSpringboot.path} />
+                          </svg>
+                        </div>
+                        <h2 className="text-xs mt-0.5">Spring Boot</h2>
+                      </li>
+                      <li>
+                        <div className="w-14 h-14 flex items-center justify-center text-4xl mx-auto">
+                          <FontAwesomeIcon icon={faShieldHalved} />
+                        </div>
+                        <h2 className="text-xs mt-0.5">App Security</h2>
+                      </li>
+                      <li>
+                        <div className="w-14 h-14 flex items-center justify-center text-3xl mx-auto">
+                          <FontAwesomeIcon icon={faLock} />
+                        </div>
+                        <h2 className="text-xs mt-0.5">Data Security</h2>
+                      </li>
                   </ul>
           <h1 className="m-0 text-2xl mt-14">Soft Skills</h1>
-            {/* LEarning LIST */}
-                  <ul className="mt-2 flex flex-row max-w-75 gap-3 text-3xl text-center items-center justify-center">
+            {/* Softskills List */}
+                  <ul className="mt-2 flex flex-row max-w-75 gap-3 text-center items-center justify-center">
                     <li>
-                      <FontAwesomeIcon icon={faBug} />
+                      <div className="w-14 h-14 flex items-center justify-center text-3xl mx-auto">
+                        <FontAwesomeIcon icon={faBug} />
+                      </div>
                       <h2 className="text-xs mt-0.5">Problem Solving</h2>
                     </li>
-                    <li className="">
-                      <FontAwesomeIcon icon={faPencil} />
+                    <li>
+                      <div className="w-14 h-14 flex items-center justify-center text-3xl mx-auto">
+                        <FontAwesomeIcon icon={faPencil} />
+                      </div>
                       <h2 className="text-xs mt-0.5">Creative</h2>
                     </li>
-                    <li className="">
-                      <FontAwesomeIcon icon={faPeopleGroup} />
+                    <li>
+                      <div className="w-14 h-14 flex items-center justify-center text-3xl mx-auto">
+                        <FontAwesomeIcon icon={faPeopleGroup} />
+                      </div>
                       <h2 className="text-xs mt-0.5">Collaboration</h2>
                     </li>
                     

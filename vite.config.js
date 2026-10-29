@@ -16,7 +16,8 @@ export default defineConfig({
     host: true,
     port: 5173,
     allowedHosts: [
-      ".ngrok-free.dev"
+      ".ngrok-free.dev",
+      "norberto-combinational-joellen.ngrok-free.dev",
     ],
     hmr: {
       clientPort: 443
